@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека</title>
+    <!-- Подключаем Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Подключаем ваши стили -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Библиотека</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Главная</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Категории
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Романы</a>
+                        <a class="dropdown-item" href="#">Наука</a>
+                        <a class="dropdown-item" href="#">Фантастика</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about/">О библиотеке</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>О нашей библиотеке</h1>
+
+        <p>Добро пожаловать в библиотеку, посвященную IT литературе! Мы стремимся предоставить широкий спектр книг по программированию, веб-разработке и другим технологическим темам.</p>
+
+	@@ -52,12 +14,5 @@ <h2>Наши категории</h2>
+        <h2>Как пользоваться библиотекой</h2>
+        <p>Просто просматривайте наш каталог книг, выбирайте интересующие вас темы и наслаждайтесь чтением. Мы также регулярно обновляем наш ассортимент, чтобы держать вас в курсе последних тенденций в мире технологий.</p>
+
+        <p>Спасибо, что выбрали нашу библиотеку!</p>
+    </div>
+
+    <!-- Подключаем Bootstrap JS (необходим для работы некоторых Bootstrap компонентов) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
